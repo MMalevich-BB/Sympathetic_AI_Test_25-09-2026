@@ -96,7 +96,7 @@ public partial class AIAnomaly_Doobie
     // ==============================
 
     /// <summary>
-    /// Determines whether Doobie should attempt a blink teleport. Conditions: player is within ±3m of the chase range boundary, the player is NOT looking at Doobie, and the cooldown has elapsed.
+    /// Determines whether Doobie should attempt a blink teleport. Conditions: player is within Â±3m of the chase range boundary, the player is NOT looking at Doobie, and the cooldown has elapsed.
     /// </summary>
     private bool ShouldAttemptTeleport(float distToPlayer)
     {
